@@ -1,0 +1,157 @@
+{
+    "workbench.startupEditor": "none", // On ne veut pas une page d'accueil chargée
+    "editor.minimap.enabled": false,
+    // -- Sidebar
+    "workbench.tree.indent": 15, // Indente plus pour plus de clarté dans la sidebar
+    "workbench.tree.renderIndentGuides": "always",
+    // -- Code
+    "editor.occurrencesHighlight": "off",
+    "editor.renderWhitespace": "boundary", // On ne veut pas laisser d'espace en fin de ligne
+    // Thème
+    "editor.fontFamily": "'JetBrains Mono', 'Fira Code', 'Operator Mono Lig', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 28,
+    "workbench.colorCustomizations": {
+        "[Tokyo Night]": {
+            "editor.selectionBackground": "#3D59A1",
+            "editor.selectionHighlightBackground": "#3D59A1"
+        },
+    },
+    // Ergonomie
+    "editor.wordWrap": "on",
+    "editor.suggest.insertMode": "replace", // L'autocomplétion remplace le mot en cours
+    "editor.acceptSuggestionOnCommitCharacter": false, // Evite que l'autocomplétion soit accepté lors d'un . par exemple
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.linkedEditing": true, // Quand on change un élément HTML, change la balise fermante
+    "explorer.autoReveal": true,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.editor.enablePreview": false, // Un clic sur un fichier l'ouvre
+    "emmet.triggerExpansionOnTab": true,
+    // Fichiers
+    "files.autoSave": "onFocusChange",
+    "files.defaultLanguage": "markdown",
+    "files.exclude": {
+        "**/.idea": true
+    },
+    // Languages
+    "javascript.preferences.importModuleSpecifierEnding": "js",
+    "typescript.preferences.importModuleSpecifierEnding": "js",
+    // Formatters
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    // Extensions
+    "liveServer.settings.donotVerifyTags": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.inlineSuggest.enabled": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "php.suggest.basic": false,
+    "explorer.confirmDelete": false,
+    "namespaceResolver.sortAlphabetically": true,
+    "files.trimTrailingWhitespace": true,
+    "intelephense.environment.phpVersion": "8.2",
+    "php-docblocker.author": {
+        "name": "Imad Najmi",
+        "email": "imadnajmi9@gmail.com"
+    },
+    "php-docblocker.useShortNames": true,
+    "php.executablePath": "/usr/bin/php",
+    "php.memoryLimit": "8095M",
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "files.associations": {
+        "*.html": "twig"
+    },
+    "emmet.includeLanguages": {
+        "twig": "html"
+    },
+    "aws.experiments": {
+        "jsonResourceModification": true
+    },
+    "update.showReleaseNotes": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "[twig]": {
+        "editor.defaultFormatter": "mblode.twig-language-2"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "aws.suppressPrompts": {
+        "codeWhispererConnectionExpired": true,
+        "codeWhispererNewWelcomeMessage": true
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "php": true
+    },
+    "php.validate.executablePath": "/usr/bin/php",
+    "[dockercompose]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "yaml.schemas": {
+        "file:///home/imad/.vscode/extensions/atlassian.atlascode-3.0.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "atlascode.jira.lastCreateSiteAndProject": {
+        "siteId": "",
+        "projectKey": ""
+    },
+    "audioCues.chatResponsePending": "off",
+    "audioCues.diffLineDeleted": "off",
+    "audioCues.diffLineInserted": "off",
+    "audioCues.diffLineModified": "off",
+    "audioCues.lineHasBreakpoint": "off",
+    "audioCues.terminalQuickFix": "off",
+    "audioCues.terminalCommandFailed": "off",
+    "audioCues.taskFailed": "off",
+    "audioCues.taskCompleted": "off",
+    "audioCues.onDebugBreak": "off",
+    "audioCues.notebookCellFailed": "off",
+    "audioCues.noInlayHints": "off",
+    "audioCues.lineHasInlineSuggestion": "off",
+    "audioCues.lineHasFoldedArea": "off",
+    "audioCues.lineHasError": "off",
+    "audioCues.notebookCellCompleted": "off",
+    "workbench.editorAssociations": {
+        "*.doc": "default",
+        "*.docx": "docxViewer.DocxEdit",
+        "*.xlsx": "default"
+    },
+    "cloudcode.duetAI.project": "gvet-core",
+    "window.zoomLevel": 1,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "gitlens.ai.experimental.provider": "openai",
+    "gitlens.ai.experimental.openai.model": "gpt-4-1106-preview",
+    "liveServer.settings.port": 3000,
+    "explorer.confirmPasteNative": false,
+    "remote.SSH.configFile": "/home/imad/Desktop/secrets/aws-ssh.pem",
+}
